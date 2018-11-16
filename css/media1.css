@@ -1,0 +1,66 @@
+/***********/
+/* HEADER  */
+/***********/
+
+header{
+	width: 90%;
+	margin: 0 auto;
+	min-width: 900px;
+}
+
+/***********/
+/* CONTENT */
+/***********/
+
+.wrap_content{
+	width: 90%;
+	overflow: hidden;
+	padding-top: 40px;
+	padding-bottom: 140px;
+	margin: 0 auto;
+}
+
+.wrap_content .main{
+	overflow: hidden;
+	width: 100%;
+}
+
+aside{
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+
+}
+
+
+aside .form{
+	width: 56%;
+	box-sizing: border-box;
+	float: left;
+}
+
+aside a{
+	width: 38.4%;
+	float: right;
+}
+
+aside{
+	padding-top: 40px;
+}
+
+/************/
+/*  FOOTER  */
+/************/
+
+
+.wrap_footer_nav{
+	min-width: 900px;
+}
+
+.nav_footer{
+	width: 900px;
+}
+
+.site{
+	width: 100%;
+}

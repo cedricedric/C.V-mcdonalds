@@ -1,0 +1,147 @@
+/***********/
+/* HEADER  */
+/***********/
+header{
+	min-width: 90%;
+	margin: 0 auto;
+}
+
+.title{
+	//font-size: 3.2em;
+	font-size: 10vw;
+}
+
+.wrap_header_nav{
+	display: block;
+	height: auto;
+
+}
+.background{
+	display: block;
+	margin-top: 10px;
+}
+
+.wrap_header_nav h1{
+	display: block;
+	background: #004812;
+	border-radius: 5px;
+	text-align: center;
+}
+.wrap_header_nav ul{
+	display: block;
+	text-align: center;
+}
+
+.wrap_header_nav ul li{
+	padding: 10px 0;
+
+}
+.wrap_header_nav .form{
+	justify-content: center;
+	padding-bottom: 20px;
+
+}
+
+
+
+/***********/
+/* CONTENT */
+/***********/
+
+.wrap_content{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.main h2{
+	//font-size: 2.8em;
+	font-size: 8vw;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+}
+
+.description{
+	width: 100%;
+}
+
+.curriculum{
+	width: 100%;
+}
+
+aside{
+	display: flex;
+	flex-direction: column;
+}
+
+aside .form,
+aside a{
+	width: 100%;
+}
+
+/************/
+/*  FOOTER  */
+/************/
+
+footer{
+	display: flex;
+	flex-direction: column;
+}
+
+.nav_footer{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.wrap_footer_nav{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	min-width: 100%;
+}
+
+.wave ul{
+	align-items: center;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+footer .wave nav ul li a{
+	border-right: none;
+}
+
+.nav_footer>div{
+	width: 100%;
+	margin-bottom: 36px;
+}
+
+.wave{
+	height: auto;
+	padding: 0;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.site{
+	display: flex;
+	width: 100%;
+}
+
+footer .wrap_footer_nav .wave a{
+	padding-left: 0px;
+}
+
+footer nav{
+	background: none;
+	padding: 0;
+}
